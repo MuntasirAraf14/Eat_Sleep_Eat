@@ -32,9 +32,70 @@
     
     <!--header-->
 
-    <header class="header" date-header>
+    <header class="header active" date-header>
         <div class="container">
-            <a href="#" class="logo"></a>
+            <a href="#" class="logo">
+            <img src="../Eat_Sleep_Eat/Essentials/logo.svg" width="130" height="45" alt="Crisp home">
+            </a>
+            
+            <nav class="navbar" data-navbar>
+                <button class="nav-close-btn" aria-label="close-menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <a href="#" class="nav-logo">
+                    <img src="../Eat_Sleep_Eat/Essentials/logo.svg" width="175" height="61" alt="Crispy home">
+                </a>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link" data-nav-link>Menu</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link" data-nav-link>About</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link" data-nav-link>Shop</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link" data-nav-link>Blog</a>
+                    </li>
+                    
+
+                </ul>
+
+                <a href="#" class="btn">
+                    <span class="span">Book a Table</span>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+            </nav>
+
+            <div class="header-action">
+                <a href="tel: +880 1978256929" class="call">
+                    <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="span">000 (123) 456 789</span>
+                </a>
+                    <a href="#" class="btn">
+                        <span class="span">Book A Table</span>
+
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+                
+
+            </div>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay" data-overlay data-nav-toggler></div>
+
+
         </div>
 
     </header>

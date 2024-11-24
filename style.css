@@ -124,3 +124,46 @@ body{
 ::placeholder{
     color: inherit;
 }
+
+
+/*Re-used Style*/
+
+.container{
+    padding-inline: 16px;
+}
+
+
+.navbar, .overlay, .header-action{
+    display: none;
+}
+
+.header{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    background-color: var(--bg-white);
+    padding-block: 12px;
+    z-index: 4;
+  
+}
+
+.header.active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    animation: slideIn 500ms ease-in-out forwards;
+}
+
+@keyframes slideIn {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(0); }
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
