@@ -1,0 +1,12 @@
+{
+  "name": "eat_sleep_eat",
+  "version": "1.0.0",
+  "description": "A restaurant website project that will be improved over time with new features and designs, focusing on user experience and modern web development.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
